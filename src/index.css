@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: gray;
+  background: rgb(236, 103, 214);
 }
 
 code {
@@ -40,4 +40,10 @@ main {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: var(--light-shadow);
+}
+.btn {
+  background-color: transparent;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  border-color: rgb(236, 103, 214);
 }

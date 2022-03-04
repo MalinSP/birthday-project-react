@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import data from "./data";
+import { data } from "./data";
 import List from "./List";
 
 function App() {
@@ -11,7 +11,9 @@ function App() {
       <section className='container'>
         <h3>{people.length} bithdays today</h3>
         <List people={people} />
-        <button onClick={() => setPeople([])}>Clear All</button>
+        <button className='btn' onClick={() => setPeople([])}>
+          Clear All
+        </button>
       </section>
     </main>
   );
